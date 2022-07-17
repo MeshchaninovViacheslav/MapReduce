@@ -15,15 +15,15 @@ Install compgraph library. You have to run these comand in your HW2 directory.
 $ ~/.pyenv/versions/shad_2020/bin/pip install -e compgraph --force
 ```
 
-## Интерфейс графа вычислений
+## Calculation Graph Interface
 
-Граф вычислений состоит из точек входа для данных и операций над ними.
+The calculation graph consists of data entry points and operations on them.
 
-Доступные операции описаны и реализованы в файле operations.py.
+The available operations are described and implemented in the file operations.py .
 
-В файле algorithms.py можно посмотреть на примеры работы с данным графом.
+In the file algorithms.py you can look at examples of working with this graph.
 
-Вот так может выглядеть граф, который подсчитывает кол-во слов в документах:
+This is how a graph that counts the number of words in documents can look like:
 
 ```python
 graph = Graph.graph_from_iter('texts')
